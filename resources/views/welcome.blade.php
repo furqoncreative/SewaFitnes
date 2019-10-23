@@ -20,7 +20,6 @@
 			<!--
 			CSS
             ============================================= -->
-
             <link rel="stylesheet" type="text/css" href="{{ asset('css/linearicons.css') }}" >
             <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.min.css') }}" >
             <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}" >
@@ -28,7 +27,6 @@
             <link rel="stylesheet" type="text/css" href="{{ asset('css/nice-select.css') }}" >
             <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.min.css') }}" >
             <link rel="stylesheet" type="text/css" href="{{ asset('css/owl.carousel.css') }}" >
-            <link rel="stylesheet" type="text/css" href="{{ asset('css/linearicons.css') }}" >
             <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}" >
 		</head>
 		<body>
@@ -38,8 +36,8 @@
 			    	<div class="row header-top align-items-center">
 			    		<div class="col-lg-4 col-sm-4 menu-top-left">
 			    			<span>
-			    				We believe we helps people <br>
-								for happier lives
+			    				Di dalam tubuh yang sehat <br>
+								terdapat jiwa yang kuat
 			    			</span>
 			    		</div>
 			    		<div class="col-lg-4 menu-top-middle justify-content-center d-flex">
@@ -47,10 +45,10 @@
 								<img class="img-fluid" src="img/logo.png" alt="">
 							</a>
 			    		</div>
-			    		<div class="col-lg-4 col-sm-4 menu-top-right">
+			    		{{-- <div class="col-lg-4 col-sm-4 menu-top-right">
 			    			<a class="tel" href="tel:+880 123 12 658 439">+880 123 12 658 439</a>
 			    			<a href="tel:+880 123 12 658 439"><span class="lnr lnr-phone-handset"></span></a>
-			    		</div>
+			    		</div> --}}
 			    	</div>
 			    </div>
 			    	<hr>
@@ -59,17 +57,10 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="#home">Home</a></li>
-				          <li><a href="#offer">we offer</a></li>
-				          <li><a href="#top-course">Top Course</a></li>
-				          <li><a href="#schedule">Schedule</a></li>
-				          <li><a href="#trainer">Trainer</a></li>
-				          <li><a href="#plan">Plan</a></li>
-				          <li class="menu-has-children"><a href="">Pages</a>
-				            <ul>
-				              <li><a href="generic.html">Generic</a></li>
-				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>
+				          <li><a href="#offer">Tentang</a></li>
+				          <li><a href="#top-course">Kelas Mingguan</a></li>
+				          <li><a href="#schedule">Jadwal</a></li>
+				          <li><a href="#plan">Paket Gym</a></li>
 				        </ul>
 				      </nav><!-- #nav-menu-container -->
 			    	</div>
@@ -93,7 +84,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->
+            <!-- End banner Area -->
 
 			<!-- Start offer Area -->
 			<section class="offer-area section-gap" id="offer">
@@ -238,36 +229,6 @@
 			</section>
 			<!-- End top-course Area -->
 
-
-			<!-- Start feature Area -->
-			<section class="feature-area">
-				<div class="container-fluid">
-					<div class="row justify-content-center align-items-center">
-						<div class="col-lg-3 feat-img no-padding">
-							<img class="img-fluid" src="img/f1.jpg" alt="">
-						</div>
-						<div class="col-lg-3 no-padding feat-txt">
-							<h6 class="text-uppercase text-white">Basic & Common Repairs</h6>
-							<h1>Basic Revolutions</h1>
-							<p>
-								Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
-							</p>
-						</div>
-						<div class="col-lg-3 feat-img no-padding">
-							<img class="img-fluid" src="img/f2.jpg" alt="">
-						</div>
-						<div class="col-lg-3 no-padding feat-txt">
-							<h6 class="text-uppercase text-white">Basic & Common Repairs</h6>
-							<h1>Basic Revolutions</h1>
-							<p>
-								Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- End feature Area -->
-
 			<!-- Start schedule Area -->
 			<section class="schedule-area section-gap" id="schedule">
 				<div class="container">
@@ -350,7 +311,7 @@
 			<!-- End schedule Area -->
 
 
-			<!-- Start team Area -->
+			{{-- <!-- Start team Area -->
 			<section class="team-area section-gap" id="trainer">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -421,7 +382,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- End team Area -->
+			<!-- End team Area --> --}}
 
 			<!-- Start price Area -->
 			<section class="price-area pt-100" id="plan">
@@ -429,8 +390,7 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">Choose the Perfect Plan for you</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="mb-10">Pilih paket sesuai kebutuhan anda</h1>
 							</div>
 						</div>
 					</div>
@@ -439,11 +399,11 @@
 							<div class="single-price">
 								<div class="top-sec d-flex justify-content-between">
 									<div class="top-left">
-										<h4>Standard</h4>
-										<p>For the <br>individuals</p>
+										<h4>Harian</h4>
+										<p>Hemat<br> 0%</p>
 									</div>
 									<div class="top-right">
-										<h1>£199</h1>
+										<h1>8K</h1>
 									</div>
 								</div>
 								<div class="bottom-sec">
@@ -459,7 +419,7 @@
 										<li>Reliable Customer Service</li>
 										<li>Manual Backup Provided</li>
 									</ul>
-									<button class="primary-btn price-btn mt-20">Purchase Plan<span class="lnr lnr-arrow-right"></span></button>
+									<button class="primary-btn price-btn mt-20">PILIH<span class="lnr lnr-arrow-right"></span></button>
 								</div>
 							</div>
 						</div>
@@ -467,11 +427,11 @@
 							<div class="single-price">
 								<div class="top-sec d-flex justify-content-between">
 									<div class="top-left">
-										<h4>Business</h4>
-										<p>For the <br>small Company</p>
+										<h4>Mingguan</h4>
+										<p>Hemat<br> 10%</p>
 									</div>
 									<div class="top-right">
-										<h1>£399</h1>
+										<h1>30K</h1>
 									</div>
 								</div>
 								<div class="bottom-sec">
@@ -487,7 +447,7 @@
 										<li>Reliable Customer Service</li>
 										<li>Manual Backup Provided</li>
 									</ul>
-									<button class="primary-btn price-btn mt-20">Purchase Plan<span class="lnr lnr-arrow-right"></span></button>
+									<button class="primary-btn price-btn mt-20">PILIH<span class="lnr lnr-arrow-right"></span></button>
 								</div>
 							</div>
 						</div>
@@ -495,11 +455,11 @@
 							<div class="single-price">
 								<div class="top-sec d-flex justify-content-between">
 									<div class="top-left">
-										<h4>Ultimate</h4>
-										<p>For the <br>large Company</p>
+										<h4>Bulanan</h4>
+										<p>Hemat<br> 20%</p>
 									</div>
 									<div class="top-right">
-										<h1>£499</h1>
+										<h1>80K</h1>
 									</div>
 								</div>
 								<div class="bottom-sec">
@@ -515,7 +475,7 @@
 										<li>Reliable Customer Service</li>
 										<li>Manual Backup Provided</li>
 									</ul>
-									<button class="primary-btn price-btn mt-20">Purchase Plan<span class="lnr lnr-arrow-right"></span></button>
+									<button class="primary-btn price-btn mt-20">PILIH<span class="lnr lnr-arrow-right"></span></button>
 								</div>
 							</div>
 						</div>
@@ -525,31 +485,7 @@
 			</section>
 			<!-- End price Area -->
 
-			<!-- Start brand Area -->
-			<section class="brand-area section-gap">
-				<div class="container">
-					<div class="row logo-wrap">
-							<a class="col single-img" href="#">
-								<img class="d-block mx-auto" src="img/l1.png" alt="">
-							</a>
-							<a class="col single-img" href="#">
-								<img class="d-block mx-auto" src="img/l2.png" alt="">
-							</a>
-							<a class="col single-img" href="#">
-								<img class="d-block mx-auto" src="img/l3.png" alt="">
-							</a>
-							<a class="col single-img" href="#">
-								<img class="d-block mx-auto" src="img/l4.png" alt="">
-							</a>
-							<a class="col single-img" href="#">
-								<img class="d-block mx-auto" src="img/l5.png" alt="">
-							</a>
-					</div>
-				</div>
-			</section>
-			<!-- End brand Area -->
-
-			<!-- Start callto Area -->
+			{{-- <!-- Start callto Area -->
 			<section class="callto-area section-gap relative">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
@@ -564,7 +500,7 @@
 					</div>
 				</div>
 			</section>
-			<!-- End callto Area -->
+			<!-- End callto Area --> --}}
 
 
 			<!-- start footer Area -->
@@ -631,24 +567,23 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</footer>
 			<!-- End footer Area -->
 
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
 			<script type="text/javascript" src="{{ asset('js/vendor/jquery-2.2.4.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/jjquery-2.2.4.minjs') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/easing.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/hoverIntent.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/superfish.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/jquery.ajaxchimp.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/jquery.magnific-popup.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/owl.carousel.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/jquery.sticky.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/jquery.nice-select.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/parallax.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/waypoints.min.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/jquery.counterup.min..js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/mail-script.js') }}"></script>
-			<script type="text/javascript" src="{{ asset('js/vendor/main.js') }}"></script>
-
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script type="text/javascript" src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+			<script type="text/javascript" src="{{ asset('js/easing.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/hoverIntent.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/superfish.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/jquery.ajaxchimp.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/jquery.sticky.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/parallax.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/waypoints.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/mail-script.js') }}"></script>
+			<script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 		</body>
 	</html>
 
