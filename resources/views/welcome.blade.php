@@ -176,7 +176,7 @@
 									<img class="img-fluid" src="img/c1.jpg" alt="">
 								</div>
 								<span class="course-status">Course Available</span>
-								<a href="#"><h4>Running Classes <span>$275</span></h4></a>
+								<a href="#"><h4>Kelas Aerobik<span>50K</span></h4></a>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
@@ -185,43 +185,7 @@
 									<img class="img-fluid" src="img/c2.jpg" alt="">
 								</div>
 								<span class="course-status">Course Available</span>
-								<a href="#"><h4>Weight Lifting Classes <span>$200</span></h4></a>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-course">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c3.jpg" alt="">
-								</div>
-								<span class="course-status">Course Available</span>
-								<a href="#"><h4>Body Combat Classes <span>$225</span></h4></a>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-course">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c4.jpg" alt="">
-								</div>
-								<span class="course-status">Course Available</span>
-								<a href="#"><h4>Organic Yoga Classes <span>$300</span></h4></a>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-course">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c5.jpg" alt="">
-								</div>
-								<span class="course-status">Course Available</span>
-								<a href="#"><h4>Raw Fitness Classes <span>$500</span></h4></a>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-course">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c6.jpg" alt="">
-								</div>
-								<span class="course-status">Course Available</span>
-								<a href="#"><h4>Body Building Classes <span>$250</span></h4></a>
+								<a href="#"><h4>Kelas Zumba <span>70K</span></h4></a>
 							</div>
 						</div>
 					</div>
